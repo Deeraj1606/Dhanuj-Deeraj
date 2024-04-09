@@ -23,14 +23,14 @@ struct RelayInfo {
 };
 
 std::vector<RelayInfo> relays = {
-    {"6613d5973019d22c41892b72", "Relay 1", RELAYPIN_1},
-    {"6613e5e47c9e6c6fe866d93c", "Relay 2", RELAYPIN_2}
+    {"u3g7ry438ryu84irxxxxxxxx", "Relay 1", RELAYPIN_1},
+    {"8u84fh84hxxxxxxxxxxxxxxx", "Relay 2", RELAYPIN_2}
 };
 
-#define WIFI_SSID         "JET"
-#define WIFI_PASS         "deeraj2010"
-#define APP_KEY           "c4f9ded7-bcd9-4616-8574-9ccd5dad08a4"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "14654627-dd09-403c-a8b1-1858d86e8669-7f844194-737d-48b3-a121-c9c51a4f96aa"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define WIFI_SSID         "SSID"
+#define WIFI_PASS         "password"
+#define APP_KEY           "APP KEY"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        "SECRET KEY"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
 #define BAUD_RATE         115200              // Change baudrate to your need
 
 bool onPowerState(const String &deviceId, bool &state) {
